@@ -27,7 +27,7 @@ import {
 } from '../lib/assistant'
 
 const MissionContext = createContext(null)
-const API_BASE_URL = 'http://127.0.0.1:8000'
+const API_BASE_URL = 'https://astrahealth-ai-backend-z596.onrender.com'
 const mapBackendReadings = (records) => {
   return Object.fromEntries(
     records.map((record) => [
