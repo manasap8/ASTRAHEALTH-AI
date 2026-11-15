@@ -1,0 +1,27 @@
+{
+  "name": "astroguardian",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AstroGuardian — AI-powered astronaut health monitoring and autonomous medical assistance system",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 3001",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 3001"
+  },
+  "dependencies": {
+    "jspdf": "^4.2.1",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-three-fiber": "^6.0.13",
+    "recharts": "^2.15.0",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.0.0",
+    "vite": "^6.0.7"
+  }
+}
